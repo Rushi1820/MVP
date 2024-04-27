@@ -6,11 +6,13 @@ Explanation:
          Firstly, I created a spring boot project “Assignment” using “Spring Initializer” where I added all the required dependencies for my project and downloaded as a jar folder. Then In Assignment project I added all the packages and classes required for it. Then added the Postgres properties in application properties file, and all other requirements
 
 Entities: 
- • Training center: this contains all the fields given in the requirements along with a embedded address class.
+  • Training center: this contains all the fields given in the requirements along with a embedded address class.
 
- • Address: this is a embedded class which encapsulates the fields of a address and helps in easy modifications and creation rather than single field in the main entity. Functionality: • As the given instructions in the assignment, when a new centre is created it will valid the given email and phone number whether they are in correct format or not.
+  • Address: this is a embedded class which encapsulates the fields of a address and helps in easy modifications and creation rather than single field in the main entity. 
+Functionality: 
+  • As the given instructions in the assignment, when a new centre is created it will valid the given email and phone number whether they are in correct format or not.
 
- • CenterName should be below 40, CenterID should be of length 12characters, email and phone number should bein correct format if wrong will return error. Technologies Used:
+  • CenterName should be below 40, CenterID should be of length 12characters, email and phone number should bein correct format if wrong will return error. Technologies Used:
 
 Java Spring Boot for building the RESTful API.
 PostgreSQL for Database management.
